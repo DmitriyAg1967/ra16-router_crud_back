@@ -45,5 +45,5 @@ app.use(router.routes()).use(router.allowedMethods());
 const port = process.env.PORT || 7777;
 const server = http.createServer(app.callback());
 server.listen(port, () => {
-  console.log(`server started http://localhost:${port}`)
+  console.log(`server started http://localhost:${port}`);
 });
