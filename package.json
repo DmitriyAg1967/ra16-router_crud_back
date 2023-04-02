@@ -8,8 +8,7 @@
     "prestart": "npm install",
     "start": "forever server.js",
     "stop": "forever stopall",
-    "watch": "forever -w server.js",
-    "lint": "eslint ."
+    "watch": "forever -w server.js"
   },
   "repository": {
     "type": "git",
